@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recheler Business</title>
+
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!-- bootstarp CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- custom CSS file -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- header style start -->
+    <div class="header__style ">
+        <div class="custom-container-v1">
+            <div class="row align-items-center">
+                <div class="col-lg-2">
+                    <div class="logo__wrap py-4 py-lg-0 d-flex justify-content-between">
+                        <a href="index.html">
+                            <img src="./assets/images/logo.png" alt="">
+                        </a>
+                        <button class="d-lg-none text-white menu_open__btn" id="NavOpen">
+                            <svg width="25" height="40" viewBox="0 0 25 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 27.2002H24.9277" stroke="currentColor" stroke-width="2" />
+                                <path d="M0 12.4639H24.9277" stroke="currentColor" stroke-width="2" />
+                                <path d="M7.25 19.8389H24.9277" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-10 d-flex justify-content-end">
+                    <div class="main__nav d-flex d-lg-block justify-content-between flex-column" id="mainNav">
+                        <div class="mobile__header d-flex align-items-center justify-content-between d-lg-none">
+                            <a href="index.html" class="mobile__logo">
+                                <img src="./assets/images/logo.png" alt="">
+                            </a>
+
+                            <button class="text-white nav_close__btn" id="NavClose">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.65039 18.627L19.2769 1.00043" stroke="currentColor" stroke-width="2" />
+                                    <path d="M1.65039 1L19.2769 18.6265" stroke="currentColor" stroke-width="2" />
+                                </svg>
+                            </button>
+                        </div>
+                        <ul class="nav__links d-lg-flex align-items-center">
+                            <li><a href="#">About the Project</a></li>
+                            <li><a href="#">Location</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+
+                        <ul class="mobile_social__icons d-flex d-lg-none">
+                            <li><a href="#">
+
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.0264 12C11.064 12 14.3672 7.38166 14.3672 3.38388C14.3672 3.25401 14.3672 3.12415 14.3608 2.99428C15.0041 2.56434 15.5591 2.03214 16 1.42262C15.3997 1.66725 14.7635 1.82862 14.112 1.90149C14.7984 1.52244 15.3124 0.926486 15.5584 0.224313C14.9132 0.577354 14.2069 0.825215 13.4704 0.957019C13.1638 0.654918 12.7933 0.414098 12.3817 0.249478C11.9701 0.0848577 11.5262 -5.51297e-05 11.0776 2.68536e-08C10.2066 0.00058634 9.37148 0.319974 8.7556 0.888026C8.13972 1.45608 7.79343 2.22635 7.7928 3.0297C7.7928 3.26582 7.8248 3.49603 7.876 3.72035C6.57031 3.65987 5.29301 3.3468 4.12703 2.80145C2.96104 2.25611 1.93244 1.49068 1.108 0.554879C0.689026 1.22232 0.561127 2.01181 0.750268 2.76306C0.939409 3.51432 1.43141 4.17103 2.1264 4.59989C1.60566 4.58326 1.09647 4.45384 0.64 4.2221V4.26342C0.640704 4.96241 0.902984 5.63974 1.38253 6.18099C1.86207 6.72224 2.52948 7.09422 3.272 7.23409C2.9906 7.30568 2.69991 7.34143 2.408 7.34034C2.196 7.34034 1.9912 7.32263 1.792 7.28722C2.00131 7.88916 2.40961 8.41561 2.95966 8.79273C3.50971 9.16986 4.17393 9.37876 4.8592 9.39015C3.69644 10.2332 2.25981 10.6907 0.7808 10.6888C0.5184 10.6888 0.256 10.677 0 10.6475C1.50137 11.5312 3.24538 12.0004 5.0264 12Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                </a></li>
+                            <li><a href="#">
+
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.9986 -0.000976562C14.6619 -0.000976562 15.1996 0.536357 15.1996 1.20002V13.1744C15.1996 13.8377 14.6623 14.3754 13.9986 14.3754H2.02424C1.36095 14.3754 0.823242 13.8381 0.823242 13.1744V1.20002C0.823242 0.536728 1.36058 -0.000976562 2.02424 -0.000976562H13.9986ZM10.5407 5.39108C9.52036 5.39108 8.82224 5.84204 8.51141 6.36599L8.46059 6.45913V5.48094H6.51378V12.3696H8.61034V9.0328C8.61034 7.91444 9.02216 7.20311 10.012 7.20311C10.6947 7.20311 10.9812 7.8068 11.0048 8.88312L11.0064 9.0328V12.3696H13.103V8.56497C13.103 6.51065 12.6115 5.39108 10.5407 5.39108ZM5.01613 5.39108H2.91957V12.2798H5.01613V5.39108ZM3.96784 1.79687C3.22356 1.79687 2.62005 2.40038 2.62005 3.14466C2.62005 3.88894 3.22356 4.49245 3.96784 4.49245C4.71212 4.49245 5.31563 3.88894 5.31563 3.14466C5.31563 2.40038 4.71212 1.79687 3.96784 1.79687Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+
+                                </a></li>
+                            <li><a href="#">
+
+                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.86943 2.40723H7.14746V0.101953C6.92738 0.0708008 6.16905 0 5.2861 0C3.44329 0 2.18117 1.20078 2.18117 3.40693V5.4375H0.147461V8.01465H2.18117V14.5H4.6736V8.01465H6.62511L6.93534 5.4375H4.6736V3.66182C4.6736 2.91699 4.86716 2.40723 5.86943 2.40723Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header style end -->
+
+
+    <!-- Hero section start -->
+    <div class="hero__style overflow-hidden">
+        <div class="custom-container-v1 position-relative">
+            <img src="./assets/images/hero/hero_w.png" alt="" class="hero__watermark">
+            <div class="hero__wrapper d-flex align-items-center">
+                <div class="row">
+                    <div class="col-lg-9 col-xl-8 col-xxl-7">
+                        <div class="hero__content">
+                            <h1 class="text-white font-bold font-3xl">A new business district with the future in mind.
+                            </h1>
+                            <p>Introducing Rechler Business District, adipiscing elit. Proin eu consequat risus, vel
+                                tincidunt mi. Sed in velit eu turpis maximus feugiat vel nec mauris.</p>
+
+                            <a href="#" class="btn-outliend-v1 mt-5">
+                                <span> GET IN TOUCH </span>
+                                <svg width="23" height="7" viewBox="0 0 23 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22.2607 3.22852L17.2607 0.341764L17.2607 6.11527L22.2607 3.22852ZM17.7607 2.72852L0.890625 2.72851L0.890625 3.72851L17.7607 3.72852L17.7607 2.72852Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </a>
+
+                            <a href="#" class="hero__scroll text-white font-md">
+                                SCROLL
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero section end -->
+
+    <!-- blog style start -->
+    <div class="blog__style overflow-hidden">
+        <div class="custom-container-v1">
+            <div class="blog_style__wrapper">
+                <div class="row p-0 position-relative">
+                    <div
+                        class="col-xxl-2 col-lg-3 order-lg-0 pt-3 pt-lg-0 order-1 d-flex justify-content-center align-items-center">
+                        <div class="blog-pagination"></div>
+                        <div class="blog__btns flex-grow-1">
+                            <button class="blog-prev">
+                                <svg width="20" height="7" viewBox="0 0 20 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.213867 3.5L5.21387 6.38675V0.613249L0.213867 3.5ZM4.71387 4H19.584V3H4.71387V4Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </button>
+                            <button class="blog-next">
+                                <svg width="20" height="7" viewBox="0 0 20 7" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.585 3.5L14.585 0.613248L14.585 6.38675L19.585 3.5ZM15.085 3L0.214844 3L0.214844 4L15.085 4L15.085 3Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xxl-10 col-lg-9 order-lg-1 order-0">
+                        <div class="swiper blog__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="blog_card__style">
+                                        <div class="blog__thumb">
+                                            <img src="./assets/images/blog/blog__thumb.png" alt="">
+                                        </div>
+                                        <div class="blog__disc">
+                                            <p>NEWS</p>
+                                            <h4 class="blog__title"><a href="#">Construction at 20 Donald’s Way Begins
+                                                    November 2022!</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog_card__style">
+                                        <div class="blog__thumb">
+                                            <img src="./assets/images/blog/blog__thumb.png" alt="">
+                                        </div>
+                                        <div class="blog__disc">
+                                            <p>NEWS</p>
+                                            <h4 class="blog__title"><a href="#">Construction at 20 Donald’s Way Begins
+                                                    November 2022!</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="blog_card__style">
+                                        <div class="blog__thumb">
+                                            <img src="./assets/images/blog/blog__thumb.png" alt="">
+                                        </div>
+                                        <div class="blog__disc">
+                                            <p>NEWS</p>
+                                            <h4 class="blog__title"><a href="#">Construction at 20 Donald’s Way Begins
+                                                    November 2022!</a></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog style end -->
+
+    <!-- project video start -->
+    <div class="project__video">
+        <div class="custom-container-v1">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="project_video__content">
+                        <h6 class="sub-heading">70 acres of prime land available</h6>
+                        <h2 class="font-2xl section__heading">The Project</h2>
+                        <p class="font-md reg-text-1 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nec
+                            blandit nisl et tellus. Semper nisl eu amet eu urna. Sed faucibus diam vulputate rhoncus,
+                            tortor netus quam.</p>
+                        <a href="#" class="btn-outliend-v2 mt-5">
+                            <span> GET IN TOUCH </span>
+                            <svg width="23" height="7" viewBox="0 0 23 7" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.2607 3.22852L17.2607 0.341764L17.2607 6.11527L22.2607 3.22852ZM17.7607 2.72852L0.890625 2.72851L0.890625 3.72851L17.7607 3.72852L17.7607 2.72852Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="clickk" id="Click">
+        click Button
+    </button>
+    <!-- project video end -->
+
+    <!-- <div id="fullpage">
+        <div class="section ">Some section</div>
+        <div class="section">Some section</div>
+        <div class="section">Some section</div>
+        <div class="section">Some section</div>
+    </div> -->
+
+    <!-- jquery JS -->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <!-- bootstarp bundle js -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper bundle js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- full page js -->
+    <script src="./assets/js/fulpage.min.js"></script>
+    <!-- custom JS -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
