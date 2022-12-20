@@ -1,0 +1,171 @@
+@media only screen and (min-width: 1610px) and (max-width: 1800px){
+
+
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1610px){
+
+  .side-container{
+    margin-left: calc((100% - 1363px) / 2);
+  }
+    
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+  .side-container{
+    margin-left: calc((100% - 1143px) / 2);
+  }
+
+  .press-box .press-info h1 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.font-2xl {
+  font-size: 40px;
+  line-height: 42px;
+}
+  
+  
+}
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+  .side-container {
+    margin-left: calc((100% - 977px) / 2);
+  }
+
+  .press-box .press-info h1 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.font-2xl {
+  font-size: 40px;
+  line-height: 42px;
+}
+
+
+}
+
+/* Medium Layout: 1280px. end */
+
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+  .hero-area {
+    background-size: cover;
+    background-position: center left;
+    padding: 269px 0 66px;
+    height: unset;
+  }
+
+  .contact-hero li a {
+    font-size: 13px;
+  }
+
+  .contact-hero {
+    justify-content: space-around;
+    bottom: 20px;
+}
+
+
+
+}
+/* Tablet Layout: 768px. end */
+
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+
+
+}
+
+
+/* Mobile Layout: 320px. end */
+
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+
+}
+/* Wide Mobile Layout: 480px. end */
+
+
+
+
+
+
+/* Tablet & Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+
+.mobt-60 {
+  margin-top: 60px;
+}
+
+.mobt-24 {
+  margin-top: 24px;
+}
+
+
+.side-container {
+  margin-left: unset;
+  width: unset;
+  min-width: unset;
+  max-width: unset;
+}
+
+
+.press-box .press-info h1 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.font-2xl {
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.sub-heading {
+  font-size: 12px;
+}
+
+.press-slider {
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.res-top{
+  padding-top: 50px;
+}
+
+.res-bottom{
+  padding-bottom: 50px;
+}
+
+.map-wrap {
+  height: 525px;
+}
+
+}
+

@@ -29,25 +29,6 @@ $(function () {
   })
 
 
-  // 2. fullPage
-  $("#fullpage").fullpage({
-    anchors: ["home", "about", "services", "works", "contact"],
-    navigation: true,
-    navigationPosition: "right",
-    navigationTooltips: ["Home", "About", "Services", "Works", "Contact"],
-    responsiveWidth: 995,
-    autoScrolling: true,
-    scrollBar: false,
-    afterLoad: function (anchorLink, index) {
-      if (index == 5) {
-        $('.scroll-indicator').addClass('scroll-indicator-OFF');
-      } else {
-        $('.scroll-indicator').removeClass('scroll-indicator-OFF');
-      }
-    },
-    afterResponsive: function (isResponsive) { }
-  });
-
 
 
 
@@ -73,8 +54,74 @@ $(function () {
   });
 
 
+  /*Press Slide*/
+  var blogSlider = new Swiper('.press-slider', {
+    slidesPerView: 2.2,
+    speed: 500,
+    spaceBetween: 30,
+    loop: true,
+    roundLengths: true,
+    centeredSlides: false,
+    autoplay: {
+      delay: 15000
+    },
+    pagination: {
+      el: "",
+      clickable: true
+    },
+    navigation: {
+      nextEl: '.press-next',
+      prevEl: '.press-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1.3,
+        spaceBetween: 20
+      },
+      480: {
+        slidesPerView: 2.1,
+        spaceBetween: 20
+      },
+      768: {
+        slidesPerView: 2.3,
+        spaceBetween: 20
+      },
+      1200: {
+        slidesPerView: 2.2,
+        spaceBetween: 30
+      },
+      1400: {
+        slidesPerView: 2.2,
+        spaceBetween: 40
+      }
+    }
+  });
 
-  document.getElementById('Click').addEventListener('click', ()=>{
-    console.log('working')
-})
+
+
+  jQuery(window).on('load', function () {
+    const tl = gsap.timeline({ defaults: { ease: "Elastic.easeOut(1, 0.5" } });
+    tl.to(".clip__texts", {
+      x: "0",
+      duration: 1.5,
+      opacity: 1,
+    });
+    tl.to(".bottom__text", {
+      x: "0",
+      duration: 1.5,
+      opacity: 1,
+    });
+    tl.to(".clip__normal, .bottom_text__start", {
+      duration: 1.5,
+      opacity: 0,
+    });
+    tl.to(".preloader-wrap", {
+      duration: 2,
+      opacity: 0,
+      scale: 5,
+      zIndex: -10,
+      ease: Power0.ease
+    });
+  });
+
 });
