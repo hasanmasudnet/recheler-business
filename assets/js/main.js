@@ -149,3 +149,14 @@ let t3 = gsap.timeline();
         scrub:1
     }
 })
+
+  
+var wheel = $("#wheel").flipster({
+  style: 'wheel',
+  spacing: 0,
+  buttons: true,
+  scrollwheel: false,
+  loop: false,
+  infinity:true,
+  start: 'center',
+});

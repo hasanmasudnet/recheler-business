@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
     <!-- bootstarp CSS -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- flipster css -->
+    <link rel="stylesheet" href="./assets/css/jquery.flipster.min.css">
     <!-- custom CSS file -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
@@ -19,7 +21,7 @@
 <body>
 
     <!-- preloder style  -->
-    <!-- <div class="preloader-wrap d-flex flex-column justify-content-center align-items-center">
+    <div class="preloader-wrap d-flex flex-column justify-content-center align-items-center">
         <div>
             <div class="clip__texts">
                 <h2 class="clip__normal">RBD</h2>
@@ -30,7 +32,7 @@
                 <h3 class="bottom__text bottom_text__end">at Medford</h3>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- header style start -->
     <div class="header__style ">
@@ -406,23 +408,51 @@
 
    <!-- Potential --> 
     <div class="potential-area position-relative res-top res-bottom" style="background-color: #0F3975; z-index: 1;">
-        <div class="custom-container-v1">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 p-0">
                     <div class="text-center counter__header">
                         <h6 class="sub-heading text-white">70 acres of prime land available</h6>
                         <h2 class="font-2xl section__heading text-white">A Blank Canvas</h2>
                     </div>
-                    <div class="potential-slider" style="margin-top: 80px;">
-                        <div class="slide-wrap">
-                            <div class="potential-box text-center">
+                    <div class="potential-slider" id="wheel" style="margin-top: 80px;">
+                        <ul class="slide-wrap" >
+                            <li class="potential-box text-center">
                                 <img src="assets/images/potential/p-slide-img-1.png" alt="">
                                 <p>Medical Offices</p>
-                            </div>
-                        </div>
+                            </li>
+                            <li class="potential-box text-center">
+                                <img src="assets/images/potential/p-slide-img-1.png" alt="">
+                                <p>Medical Offices</p>
+                            </li>
+                            <li class="potential-box text-center">
+                                <img src="assets/images/potential/p-slide-img-1.png" alt="">
+                                <p>Medical Offices</p>
+                            </li>
+                            <li class="potential-box text-center">
+                                <img src="assets/images/potential/p-slide-img-1.png" alt="">
+                                <p>Medical Offices</p>
+                            </li>
+                            <li class="potential-box text-center">
+                                <img src="assets/images/potential/p-slide-img-1.png" alt="">
+                                <p>Medical Offices</p>
+                            </li>
+                            <li class="potential-box text-center">
+                                <img src="assets/images/potential/p-slide-img-1.png" alt="">
+                                <p>Medical Offices</p>
+                            </li>
+                            <li class="potential-box text-center">
+                                <img src="assets/images/potential/p-slide-img-1.png" alt="">
+                                <p>Medical Offices</p>
+                            </li>
+                            <li class="potential-box text-center">
+                                <img src="assets/images/potential/p-slide-img-1.png" alt="">
+                                <p>Medical Offices</p>
+                            </li>
+                        </ul>
                     </div>
                     <div class="potential-btn-wrap d-flex justify-content-center">
-                        <a href="#" class="btn-outliend-v1 mt-5">
+                        <a href="#" class="btn-outliend-v1">
                             <span> View location </span>
                             <svg width="23" height="7" viewBox="0 0 23 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22.2607 3.22852L17.2607 0.341764L17.2607 6.11527L22.2607 3.22852ZM17.7607 2.72852L0.890625 2.72851L0.890625 3.72851L17.7607 3.72852L17.7607 2.72852Z" fill="currentColor"></path>
@@ -506,7 +536,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="press__btns">
+                    <div class="press__btns mt-5">
                         <button class="press-prev" tabindex="0" aria-label="Previous slide" aria-controls="swiper-wrapper-64bccfb449f2e9a10">
                             <svg width="20" height="7" viewBox="0 0 20 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.213867 3.5L5.21387 6.38675V0.613249L0.213867 3.5ZM4.71387 4H19.584V3H4.71387V4Z" fill="currentColor"></path>
@@ -649,6 +679,8 @@
 
    <!-- Footer End -->
 
+   
+
 
 
     <!-- jquery JS -->
@@ -660,6 +692,8 @@
     <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <!-- Flipster -->
+    <script src="./assets/js/jquery.flipster.min.js"></script>
     <!-- custom JS -->
     <script src="./assets/js/main.js"></script>
 
