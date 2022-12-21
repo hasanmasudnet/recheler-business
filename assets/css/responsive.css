@@ -30,6 +30,10 @@
   font-size: 40px;
   line-height: 42px;
 }
+
+.footer-link-wrap ul li a {
+  font-size: 18px;
+}
   
   
 }
@@ -50,6 +54,10 @@
 .font-2xl {
   font-size: 40px;
   line-height: 42px;
+}
+
+.footer-link-wrap ul li a {
+  font-size: 18px;
 }
 
 
@@ -166,6 +174,69 @@
 .map-wrap {
   height: 525px;
 }
+
+.footer-link-wrap ul li a {
+  font-size: 18px;
+}
+
+
+.devider-border::before {
+  display: none;
+}
+
+.footer-devider-sm {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.news-form .input-mail button {
+  position: relative;
+  right: unset;
+  top: unset;
+  transform: unset;
+  height: unset;
+}
+
+.link-row {
+  margin-top: 52px;
+}
+
+.footer-link-wrap {
+  flex-direction: column;
+}
+
+.footer-link-wrap ul li {
+  display: block;
+  text-align: center;
+}
+
+.footer-link-wrap ul.footer-link li {
+  margin-right: 0;
+  margin-bottom: 24px;
+}
+
+.footer-copy {
+  margin-top: 50px;
+}
+
+.footer-copy p a {
+  display: block;
+  margin-left: 0;
+}
+
+.getin__style h2 {
+  font-size: 100px;
+}
+
+.getin__style {
+  padding: 50px 0 0;
+}
+
+.footer-area {
+  padding: 74px 0 60px;
+}
+
 
 }
 

@@ -125,3 +125,27 @@ $(function () {
   });
 
 });
+
+
+// Footer slider
+gsap.registerPlugin(ScrollTrigger);    
+let t2 = gsap.timeline();
+    t2.to('.scrollingTextTwo', {
+    xPercent:15,
+    duration: 1,
+    scrollTrigger:{
+
+        trigger:".scrollingTextTwo",
+        scrub:1
+    }
+})
+let t3 = gsap.timeline();
+    t3.to('.scrollingTextOne', {
+    x: 50,
+    xPercent:-15,
+    scrollTrigger:{
+
+        trigger:".scrollingTextOne",
+        scrub:1
+    }
+})
