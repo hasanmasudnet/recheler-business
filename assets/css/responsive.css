@@ -238,5 +238,66 @@
 }
 
 
+.animi__wrap .animi_layer__one, .experience-wrap .animi_layer__one {
+  position: absolute;
+  right: 0;
+  top: unset;
+  height: calc((100% - 515px) / 2);
+  background: #387083;
+  mix-blend-mode: normal;
+  width: 100% !important;
+  z-index: -1;
+  bottom: 0;
+}
+
+.experience-wrap .animi_layer__one {
+  height: calc((100% - 324px) / 2);
+}
+
+.project__video .porject_video__thumb::before, .experience-section .porject_video__thumb::before {
+  right: 0;
+  width: 100%;
+  height: 50%;
+  top: unset;
+  bottom: 0;
+}
+
+.project__video {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.project-bg-b{
+  z-index: -1;
+  top: 0;
+}
+
+.project_video__wrap .video__btn {
+  background: none;
+  border: 1px solid #fff;
+}
+
+.project_video__wrap span {
+  color: #fff;
+}
+
+.project_video__wrap {
+  text-align: center;
+}
+
+.experience-section {
+  padding: 0px 0;
+}
+
+.experience-section {
+  padding-top: 0 !important;
+  margin-top: 50px;
+}
+
+.experience-wrap {
+  padding-bottom: 50px;
+}
+
+
 }
 

@@ -1311,4 +1311,8 @@ h6 {
   opacity: 1;
   z-index: 1;
 }
+
+.project-bg-b {
+  z-index: -1;
+}
 /*# sourceMappingURL=style.css.map */
