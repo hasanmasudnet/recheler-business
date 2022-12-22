@@ -9,7 +9,7 @@
 */
 
 
-$(function () {
+(function ($) {
   "use strict";
 
   // 1. mobile menu JS
@@ -124,10 +124,7 @@ $(function () {
     });
   });
 
-});
-
-
-// Footer slider
+  // Footer slider
 gsap.registerPlugin(ScrollTrigger);    
 let t2 = gsap.timeline();
     t2.to('.scrollingTextTwo', {
@@ -150,7 +147,6 @@ let t3 = gsap.timeline();
     }
 })
 
-  
 var wheel = $("#wheel").flipster({
   style: 'wheel',
   spacing: 0,
@@ -159,4 +155,9 @@ var wheel = $("#wheel").flipster({
   loop: false,
   infinity:true,
   start: 'center',
-});
+}); 
+
+
+}(jQuery));
+
+

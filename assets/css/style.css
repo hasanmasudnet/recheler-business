@@ -1315,4 +1315,40 @@ h6 {
 .project-bg-b {
   z-index: -1;
 }
+
+.header__style_two .main__nav .nav__links li a {
+  color: #1B2D3E;
+}
+
+.team-area {
+  padding: 300px 0 62px;
+  z-index: 1;
+}
+
+.team-box {
+  margin-bottom: 24px;
+}
+
+.team-box .team-info h2 {
+  font-family: "acumin-700";
+  font-size: 24px;
+  letter-spacing: -1px;
+  color: #387083;
+  margin: 22px 0 1px;
+}
+
+.team-box .team-info p {
+  font-family: "acumin-400";
+  font-size: 18px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.team-gap {
+  margin-top: 183px;
+}
+
+.animi_team__wrap {
+  margin-top: 106px;
+}
 /*# sourceMappingURL=style.css.map */
