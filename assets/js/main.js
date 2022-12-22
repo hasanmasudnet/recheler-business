@@ -122,6 +122,40 @@
       zIndex: -10,
       ease: Power0.ease
     });
+
+
+    // About
+    gsap.registerPlugin(ScrollTrigger);
+
+    const t5 = gsap.timeline({
+        scrollTrigger: {
+            trigger: ".about_video__wrap",
+            scrub: true,
+            pin: true,
+            start: "50% 50%",
+            h: '100vh'
+        }
+    })
+
+    .from(".orange", {
+        scale: 0.6, 
+        ease: Quint.easeIn,
+        y: -100
+    })
+
+    .from(".about_gif__wrap", {
+        scaleY: 1,
+        opacity: 1,
+        ease:Power1.easeIn,
+        transformOrigin:"left top",
+    }, 0)
+    .to(".about_gif__wrap", {
+        scaleY:0,
+        opacity: 0,
+        ease:Power1.easeIn,
+        transformOrigin:"left top",
+    }, 0);
+
   });
 
   // Footer slider
@@ -158,6 +192,10 @@ var wheel = $("#wheel").flipster({
 }); 
 
 
+
+
+
 }(jQuery));
+
 
 
