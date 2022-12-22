@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recheler Business</title>
+
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!-- bootstarp CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- flipster css -->
+    <link rel="stylesheet" href="./assets/css/jquery.flipster.min.css">
+    <!-- custom CSS file -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- preloder style  -->
+    <!-- <div class="preloader-wrap d-flex flex-column justify-content-center align-items-center">
+        <div>
+            <div class="clip__texts">
+                <h2 class="clip__normal">RBD</h2>
+                <h2 class="clip__text">RBD</h2>
+            </div>
+            <div class="text-end position-relative pre__bottom">
+                <h3 class="bottom__text bottom_text__start">at Medford</h3>
+                <h3 class="bottom__text bottom_text__end">at Medford</h3>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- header style start -->
+    <div class="header__style">
+        <div class="custom-container-v1">
+            <div class="row align-items-center">
+                <div class="col-lg-2">
+                    <div class="logo__wrap py-4 py-lg-0 d-flex justify-content-between">
+                        <a href="index.html">
+                            <img src="./assets/images/logo.png" alt="">
+                        </a>
+                        <button class="d-lg-none text-white menu_open__btn" id="NavOpen">
+                            <svg width="25" height="40" viewBox="0 0 25 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 27.2002H24.9277" stroke="currentColor" stroke-width="2" />
+                                <path d="M0 12.4639H24.9277" stroke="currentColor" stroke-width="2" />
+                                <path d="M7.25 19.8389H24.9277" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-10 d-flex justify-content-end">
+                    <div class="main__nav d-flex d-lg-block justify-content-between flex-column" id="mainNav">
+                        <div class="mobile__header d-flex align-items-center justify-content-between d-lg-none">
+                            <a href="index.html" class="mobile__logo">
+                                <img src="./assets/images/logo.png" alt="">
+                            </a>
+
+                            <button class="text-white nav_close__btn" id="NavClose">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.65039 18.627L19.2769 1.00043" stroke="currentColor" stroke-width="2" />
+                                    <path d="M1.65039 1L19.2769 18.6265" stroke="currentColor" stroke-width="2" />
+                                </svg>
+                            </button>
+                        </div>
+                        <ul class="nav__links d-lg-flex align-items-center">
+                            <li><a href="#">About the Project</a></li>
+                            <li><a href="#">Location</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+
+                        <ul class="mobile_social__icons d-flex d-lg-none">
+                            <li><a href="#">
+
+                                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.0264 12C11.064 12 14.3672 7.38166 14.3672 3.38388C14.3672 3.25401 14.3672 3.12415 14.3608 2.99428C15.0041 2.56434 15.5591 2.03214 16 1.42262C15.3997 1.66725 14.7635 1.82862 14.112 1.90149C14.7984 1.52244 15.3124 0.926486 15.5584 0.224313C14.9132 0.577354 14.2069 0.825215 13.4704 0.957019C13.1638 0.654918 12.7933 0.414098 12.3817 0.249478C11.9701 0.0848577 11.5262 -5.51297e-05 11.0776 2.68536e-08C10.2066 0.00058634 9.37148 0.319974 8.7556 0.888026C8.13972 1.45608 7.79343 2.22635 7.7928 3.0297C7.7928 3.26582 7.8248 3.49603 7.876 3.72035C6.57031 3.65987 5.29301 3.3468 4.12703 2.80145C2.96104 2.25611 1.93244 1.49068 1.108 0.554879C0.689026 1.22232 0.561127 2.01181 0.750268 2.76306C0.939409 3.51432 1.43141 4.17103 2.1264 4.59989C1.60566 4.58326 1.09647 4.45384 0.64 4.2221V4.26342C0.640704 4.96241 0.902984 5.63974 1.38253 6.18099C1.86207 6.72224 2.52948 7.09422 3.272 7.23409C2.9906 7.30568 2.69991 7.34143 2.408 7.34034C2.196 7.34034 1.9912 7.32263 1.792 7.28722C2.00131 7.88916 2.40961 8.41561 2.95966 8.79273C3.50971 9.16986 4.17393 9.37876 4.8592 9.39015C3.69644 10.2332 2.25981 10.6907 0.7808 10.6888C0.5184 10.6888 0.256 10.677 0 10.6475C1.50137 11.5312 3.24538 12.0004 5.0264 12Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+                                </a></li>
+                            <li><a href="#">
+
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.9986 -0.000976562C14.6619 -0.000976562 15.1996 0.536357 15.1996 1.20002V13.1744C15.1996 13.8377 14.6623 14.3754 13.9986 14.3754H2.02424C1.36095 14.3754 0.823242 13.8381 0.823242 13.1744V1.20002C0.823242 0.536728 1.36058 -0.000976562 2.02424 -0.000976562H13.9986ZM10.5407 5.39108C9.52036 5.39108 8.82224 5.84204 8.51141 6.36599L8.46059 6.45913V5.48094H6.51378V12.3696H8.61034V9.0328C8.61034 7.91444 9.02216 7.20311 10.012 7.20311C10.6947 7.20311 10.9812 7.8068 11.0048 8.88312L11.0064 9.0328V12.3696H13.103V8.56497C13.103 6.51065 12.6115 5.39108 10.5407 5.39108ZM5.01613 5.39108H2.91957V12.2798H5.01613V5.39108ZM3.96784 1.79687C3.22356 1.79687 2.62005 2.40038 2.62005 3.14466C2.62005 3.88894 3.22356 4.49245 3.96784 4.49245C4.71212 4.49245 5.31563 3.88894 5.31563 3.14466C5.31563 2.40038 4.71212 1.79687 3.96784 1.79687Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+
+                                </a></li>
+                            <li><a href="#">
+
+                                    <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.86943 2.40723H7.14746V0.101953C6.92738 0.0708008 6.16905 0 5.2861 0C3.44329 0 2.18117 1.20078 2.18117 3.40693V5.4375H0.147461V8.01465H2.18117V14.5H4.6736V8.01465H6.62511L6.93534 5.4375H4.6736V3.66182C4.6736 2.91699 4.86716 2.40723 5.86943 2.40723Z"
+                                            fill="currentColor" />
+                                    </svg>
+
+
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header style end -->
+
+
+    <!-- Location -->
+
+      <div class="hero-location position-relative" style="background: #387083; z-index: 1;">
+         <div class="custom-container-v1">
+            <div class="row justify-content-end">
+               <div class="col-lg-11">
+                  <div class="project_video__content" style="max-width: 530px;">
+                     <h6 class="sub-heading text-white">70 acres of prime land available</h6>
+                     <h2 class="font-2xl section__heading text-white">The Project</h2>
+                     <p class="font-md reg-text-1 mb-1 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nec blandit nisl et tellus. Semper nisl eu amet eu urna. Sed faucibus diam vulputate rhoncus, tortor netus quam.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="location-box">
+                     <img class="w-100" src="assets/images/location/hero-location.png" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <img class="position-absolute start-0 top-0" style="z-index: -1;" src="assets/images/location/location-bg-r.png" alt="">
+      </div>
+
+    <!-- Location End -->
+
+
+    <!-- Map -->
+
+    <div class="map-area res-top position-relative">
+      <div class="custom-container-v1">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="project_video__content text-center">
+                      <h6 class="sub-heading">BUILD YOUR VISION</h6>
+                      <h2 class="font-2xl section__heading">Virtual Tour</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="row" style="margin-top: 78px;">
+              <div class="col-lg-12">
+                  <div class="map-wrap">
+                      <iframe src="https://s3.amazonaws.com/nova-vt/John+St+and+Gold+St+Private/tour.html" frameborder="0"></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <img class="position-absolute end-0 top-0 map-r" src="assets/images/map-bg-r.png" alt="">
+  </div>
+
+  <!-- Map End -->
+
+
+  <!-- Location Item -->
+
+   <div class="location-item-area position-relative">
+      <div class="custom-container-v1">
+         <div class="row">
+            <div class="col-lg-4 col-md-6">
+               <div class="location-item-box text-center">
+                  <img class="w-100" src="assets/images/location/item-1.png" alt="">
+                  <p>Local Shops</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <div class="location-item-box text-center has-margin">
+                  <img class="w-100" src="assets/images/location/item-2.png" alt="">
+                  <p>Retail</p>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               <div class="location-item-box text-center has-margin-2">
+                  <img class="w-100" src="assets/images/location/item-3.png" alt="">
+                  <p>Lodging</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <img class="position-absolute end-0 top-50" style="z-index: -1;" src="assets/images/location/item-bg-d.png" alt="">
+   </div>
+
+  <!-- Location Item End -->
+
+
+
+      <!-- Experience Start -->
+      <section class="position-relative experience-section-wrap " style=" z-index: 1;">
+         <div class="experience-wrap">
+             <div class="animi_layer__one"></div>
+             <!-- project video start -->
+             <div class="experience-section">
+                 <div class="custom-container-v1">
+                     <div class="row align-items-center justify-content-between">
+                         <div class="col-xl-7 col-lg-7 order-1 order-lg-0 mobt-60">
+                             <div class="porject_video__thumb d-inline-block">
+                                 <img src="./assets/images/location/location-map.png" alt="project_videos">
+                             </div>
+                         </div>
+                         <div class="col-xl-4 col-lg-5 order-0 order-lg-1">
+                             <div class="project_video__content">
+                                 <h6 class="sub-heading">Ideal location</h6>
+                                 <h2 class="font-2xl section__heading">Central to Everything</h2>
+                                 <p class="font-md reg-text-1 mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Eget nec
+                                     blandit nisl et tellus. Semper nisl eu amet eu urna. Sed faucibus diam vulputate
+                                     rhoncus,
+                                     tortor netus quam.</p>
+                                 <a href="#" class="btn-outliend-v2 mt-5">
+                                     <span> GET IN TOUCH </span>
+                                     <svg width="23" height="7" viewBox="0 0 23 7" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                         <path
+                                             d="M22.2607 3.22852L17.2607 0.341764L17.2607 6.11527L22.2607 3.22852ZM17.7607 2.72852L0.890625 2.72851L0.890625 3.72851L17.7607 3.72852L17.7607 2.72852Z"
+                                             fill="currentColor" />
+                                     </svg>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- Experience End -->
+
+
+   <!-- Footer -->
+
+   <!-- Footer Slider -->
+
+   <div class="footer-slider-wrap">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 p-0">
+                 <div class="getin__style overflow-hidden">
+                    <div class="page-content__section">
+                        <h2 id="scrollingText" class="scrollingTextOne">Get in Touch Get in Touch Get in Touch Get in Touch</h2>
+                        <h2 id="scrollingText" class="scrollingTextTwo" style="margin-left: -80%;">Get in Touch Get in Touch Get in Touch Get in Touch </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- Footer Slider End -->
+   
+   <div class="footer-area position-relative" style="background-color: #1B2D3E; z-index: 1;">
+    <div class="custom-container-v1">
+        <div class="row justify-content-between devider-border position-relative">
+            <div class="col-lg-5 footer-devider-sm">
+                <div class="footer__header">
+                    <h6 class="sub-heading text-white">Let’s COnnect</h6>
+                    <h2 class="font-2xl section__heading text-white">Get in Touch</h2>
+                    <p class="font-md reg-text-1 mb-1 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nec blandit nisl et tellus. Semper nisl eu amet eu urna. Sed faucibus diam vulputate rhoncus, tortor netus quam.</p>
+                    <a href="#" class="btn-outliend-v1 mt-5">
+                        <span> CONTACT US </span>
+                        <svg width="23" height="7" viewBox="0 0 23 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.2607 3.22852L17.2607 0.341764L17.2607 6.11527L22.2607 3.22852ZM17.7607 2.72852L0.890625 2.72851L0.890625 3.72851L17.7607 3.72852L17.7607 2.72852Z" fill="currentColor"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-5 ">
+                <div class="footer__header">
+                    <h6 class="sub-heading text-white">Newsletter</h6>
+                    <h2 class="font-2xl section__heading text-white">Stay Up to Date</h2>
+                    <p class="font-md reg-text-1 mb-1 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <form action="#" class="news-form">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input type="text" placeholder="First Name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                            <div class="col-12 ">
+                                <div class="position-relative input-mail">
+                                    <input class="mb-lg-0" type="email" placeholder="Email address">
+                                    <button type="submit" class="btn-outliend-v2">
+                                        <span> GET IN TOUCH </span>
+                                        <svg width="23" height="7" viewBox="0 0 23 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M22.2607 3.22852L17.2607 0.341764L17.2607 6.11527L22.2607 3.22852ZM17.7607 2.72852L0.890625 2.72851L0.890625 3.72851L17.7607 3.72852L17.7607 2.72852Z" fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between align-items-center ">
+            <div class="col-lg-12">
+                <div class="link-row">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <div class="footer-logo text-center text-lg-start mb-4 mb-lg-0">
+                                <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="footer-link-wrap">
+                                <ul class="footer-link">
+                                    <li><a href="#">About the Project</a></li>
+                                    <li><a href="#">Location</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                                <ul class="footer-social">
+                                    <li>
+                                        <a href="#">
+                                            <svg width="32" height="25" viewBox="0 0 32 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10.0528 24.0859C22.128 24.0859 28.7344 14.8493 28.7344 6.85369C28.7344 6.59396 28.7344 6.33423 28.7216 6.0745C30.0081 5.21462 31.1183 4.15021 32 2.93117C30.7994 3.42043 29.527 3.74318 28.224 3.88893C29.5969 3.13082 30.6248 1.93891 31.1168 0.534563C29.8264 1.24064 28.4137 1.73637 26.9408 1.99998C26.3277 1.39577 25.5865 0.914133 24.7634 0.584893C23.9402 0.255653 23.0525 0.0858272 22.1552 0.0859376C20.4132 0.0871102 18.743 0.725886 17.5112 1.86199C16.2794 2.99809 15.5869 4.53864 15.5856 6.14534C15.5856 6.61757 15.6496 7.078 15.752 7.52663C13.1406 7.40568 10.586 6.77953 8.25406 5.68884C5.92208 4.59815 3.86488 3.06731 2.216 1.1957C1.37805 2.53059 1.12225 4.10956 1.50054 5.61207C1.87882 7.11457 2.86283 8.428 4.2528 9.28572C3.21132 9.25246 2.19294 8.99362 1.28 8.53014V8.61278C1.28141 10.0108 1.80597 11.3654 2.76506 12.4479C3.72415 13.5304 5.05897 14.2744 6.544 14.5541C5.9812 14.6973 5.39981 14.7688 4.816 14.7666C4.392 14.7666 3.9824 14.7312 3.584 14.6604C4.00262 15.8643 4.81922 16.9172 5.91933 17.6714C7.01943 18.4257 8.34787 18.8435 9.7184 18.8662C7.39288 20.5523 4.51963 21.4673 1.5616 21.4635C1.0368 21.4635 0.512 21.4399 0 21.3809C3.00274 23.1482 6.49077 24.0868 10.0528 24.0859Z" fill="currentColor"/>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg width="14" height="30" viewBox="0 0 14 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4439 4.90039H14V0.289844C13.5598 0.227539 12.0432 0.0859375 10.2773 0.0859375C6.59167 0.0859375 4.06742 2.4875 4.06742 6.89981V10.9609H0V16.1152H4.06742V29.0859H9.05227V16.1152H12.9553L13.5758 10.9609H9.05227V7.40957C9.05227 5.91992 9.43939 4.90039 11.4439 4.90039Z" fill="currentColor"/>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3508 0.0859375C27.6774 0.0859375 28.7528 1.1606 28.7528 2.48793V26.4367C28.7528 27.7633 27.6781 28.8387 26.3508 28.8387H2.40199C1.07541 28.8387 0 27.7641 0 26.4367V2.48793C0 1.16135 1.07467 0.0859375 2.40199 0.0859375H26.3508ZM19.4345 10.869C17.3938 10.869 15.9976 11.7709 15.3759 12.8188L15.2743 13.0051V11.0487H11.3807V24.8261H15.5738V18.1524C15.5738 15.9157 16.3974 14.4931 18.3772 14.4931C19.7426 14.4931 20.3155 15.7004 20.3627 17.8531L20.3659 18.1524V24.8261H24.559V17.2168C24.559 13.1081 23.5761 10.869 19.4345 10.869ZM8.3857 10.869H4.19259V24.6464H8.3857V10.869ZM6.28932 3.68164C4.80077 3.68164 3.59375 4.88866 3.59375 6.37722C3.59375 7.86577 4.80077 9.07279 6.28932 9.07279C7.77788 9.07279 8.9849 7.86577 8.9849 6.37722C8.9849 4.88866 7.77788 3.68164 6.28932 3.68164Z" fill="currentColor"/>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-copy text-center text-lg-end">
+                    <p>Copyright © Rechler Business District 2022     <a href="">Privacy Policy</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- Footer End -->
+
+   
+
+    <!-- jquery JS -->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <!-- bootstarp bundle js -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper bundle js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <!-- Flipster -->
+    <script src="./assets/js/jquery.flipster.min.js"></script>
+    <!-- custom JS -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

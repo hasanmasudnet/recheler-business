@@ -1232,3 +1232,28 @@ $xxl: 1400px;
 .press-box-page{
     margin-bottom: 100px;
 }
+
+.hero-location{
+    padding: 300px 0 197px;
+}
+
+
+.location-item-box{
+    margin-bottom: 24px;
+    position: relative;
+    p{
+        font-family: $acumin-300;
+        font-size: 24px;
+        color: #000000;
+        opacity: 0.5;
+        margin-top: 16px;
+    }
+    &.has-margin {
+        margin-top: -111px;
+    }
+}
+
+.location-item-area{
+    margin: 310px 0 133px;
+    z-index: 1;
+}
