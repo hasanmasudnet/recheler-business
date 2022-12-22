@@ -1304,3 +1304,23 @@ $xxl: 1400px;
         
     }
 }
+
+.about-project-wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    p{
+        font-family: $acumin-400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #FFFFFF;
+        opacity: 0.8;
+        max-width: 318px;
+        margin-top: 23px;
+    }
+}
+
+.about-project-area{
+    padding: 200px 0;
+}
