@@ -352,5 +352,15 @@
   object-fit: cover;
 }
 
+.related-btn {
+  position: relative;
+  top: unset;
+  transform: unset;
+}
+
+.related-area {
+  padding: 50px 0 50px;
+}
+
 }
 

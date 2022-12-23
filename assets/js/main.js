@@ -97,6 +97,44 @@
     }
   });
 
+  /*Related Slide*/
+  var blogSlider = new Swiper('.related-slider', {
+    slidesPerView: 3,
+    speed: 500,
+    spaceBetween: 24,
+    loop: true,
+    roundLengths: true,
+    centeredSlides: false,
+    autoplay: {
+      delay: 15000
+    },
+    pagination: {
+      el: "",
+      clickable: true
+    },
+    navigation: {
+      nextEl: '.related-next',
+      prevEl: '.related-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1
+      },
+      480: {
+        slidesPerView: 2
+      },
+      768: {
+        slidesPerView: 2
+      },
+      1200: {
+        slidesPerView: 3
+      },
+      1400: {
+        slidesPerView: 3
+      }
+    }
+  });
+
 
 
   jQuery(window).on('load', function () {
