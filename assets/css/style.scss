@@ -1421,3 +1421,19 @@ $xxl: 1400px;
     top: 50%;
     transform: translateY(-50%);
 }
+
+.blog-slide-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    button {
+        position: absolute;
+        left: 200px;
+        top: 50%;
+        transform: translateY(-50%);
+        &.blog-next{
+            left: auto;
+            right: 200px;
+        }
+    }
+}

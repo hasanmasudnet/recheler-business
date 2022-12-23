@@ -1544,13 +1544,6 @@ h6 {
   color: #000000;
 }
 
-.related-heading {
-  font-family: "acumin-700";
-  font-size: 60px;
-  letter-spacing: -0.02em;
-  color: #000000;
-}
-
 .related-area {
   padding: 150px 0 170px;
 }
@@ -1563,5 +1556,25 @@ h6 {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.blog-slide-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.blog-slide-btn button {
+  position: absolute;
+  left: 200px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.blog-slide-btn button.blog-next {
+  left: auto;
+  right: 200px;
 }
 /*# sourceMappingURL=style.css.map */

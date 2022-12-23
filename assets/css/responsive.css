@@ -68,6 +68,14 @@
   margin: 230px 0 133px;
 }
 
+.blog-slide-btn button {
+  left: 145px;
+}
+
+.blog-slide-btn button.blog-next {
+  right: 145px;
+}
+
 
 }
 
@@ -361,6 +369,14 @@
 .related-area {
   padding: 50px 0 50px;
 }
+
+.blog-slide-btn {
+  position: relative;
+  top: unset;
+  transform: unset;
+}
+
+
 
 }
 
