@@ -251,8 +251,6 @@
   right: 0;
   top: unset;
   height: calc((100% - 515px) / 2);
-  background: #387083;
-  mix-blend-mode: normal;
   width: 100% !important;
   z-index: -1;
   bottom: 0;
@@ -338,6 +336,11 @@
 
 .about-project-area{
   padding: 50px 0;
+}
+
+.about-exp .project__video {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 }

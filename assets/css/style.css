@@ -1455,4 +1455,17 @@ h6 {
 .about-project-area {
   padding: 200px 0;
 }
+
+.about-exp .animi_layer__one {
+  background: #0F3975;
+}
+
+.about-exp .project__video {
+  padding-top: 430px;
+  padding-bottom: 290px;
+}
+
+.about-exp .project__video .porject_video__thumb::before {
+  background: #0F3975;
+}
 /*# sourceMappingURL=style.css.map */
