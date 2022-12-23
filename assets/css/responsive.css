@@ -343,5 +343,14 @@
   padding-bottom: 50px;
 }
 
+.news-form input {
+  padding: 12px 18px;
+}
+
+.img-wrap img {
+  height: 400px !important;
+  object-fit: cover;
+}
+
 }
 

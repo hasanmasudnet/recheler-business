@@ -1468,4 +1468,8 @@ h6 {
 .about-exp .project__video .porject_video__thumb::before {
   background: #0F3975;
 }
+
+.contact-form-area {
+  padding: 227px 0 0;
+}
 /*# sourceMappingURL=style.css.map */
