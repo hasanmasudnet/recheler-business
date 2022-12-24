@@ -213,7 +213,6 @@ let t3 = gsap.timeline();
     x: 50,
     xPercent:-15,
     scrollTrigger:{
-
         trigger:".scrollingTextOne",
         scrub:1
     }
@@ -230,9 +229,67 @@ var wheel = $("#wheel").flipster({
 }); 
 
 
+// gsap.to(".animi__wrap", {
+//   scrollTrigger: {
+//     trigger: ".blog__style",
+//     scrub: 0.5,
+//     start: "top bottom",
+//     end: "bottom -300%",
+//     ease: "power2"
+//   },
+//   y: "0%"
+// });
+
+  const imageRevel = gsap.timeline({ defaults: { ease: "power2" } });
+  
+  gsap.to(".porject_video__thumb img", {
+    scrollTrigger: ".porject_video__thumb img", 
+    scaleX: 1,
+    delay : .6,
+    ease: "power2",
+    duration: 1.5,
+  });
+  gsap.to(".porject_video_thumb__two img", {
+    scrollTrigger: ".porject_video_thumb__two img", 
+    scaleX: 1,
+    delay : .6,
+    ease: "power2",
+    duration: 1.5,
+  });
+  gsap.to(".project_video__overlay", {
+    scrollTrigger: ".project_video__overlay", 
+    scaleX: 1,
+    x: 0,
+    opacity: 1,
+    delay : .6,
+    ease: "power2",
+    duration: 1.5,
+  });
+ 
+  gsap.to(".project_video_overlay__2", {
+    scrollTrigger: ".project_video_overlay__2", 
+    scaleX: 1,
+    x: 0,
+    opacity: 1,
+    delay : .8,
+    ease: "power2",
+    duration: 1.5,
+  });
 
 
-
+  gsap.to(".counter__style", {
+    scrollTrigger: ".counter__style", 
+    y: 0,
+    ease: "power2",
+    duration: 1.5,
+  });
+  gsap.to(".press-slider", {
+    scrollTrigger: ".press-slider", 
+    y: 0,
+    x: 0,
+    ease: "power2",
+    duration: 1.5,
+  });
 }(jQuery));
 
 
