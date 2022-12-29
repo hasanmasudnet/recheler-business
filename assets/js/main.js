@@ -55,7 +55,7 @@
 
 
   /*Press Slide*/
-  var blogSlider = new Swiper('.press-slider', {
+  var pressSlider = new Swiper('.press-slider', {
     slidesPerView: 2.2,
     speed: 500,
     spaceBetween: 30,
@@ -72,6 +72,10 @@
     navigation: {
       nextEl: '.press-next',
       prevEl: '.press-prev',
+    }, 
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
     },
     breakpoints: {
       320: {
@@ -98,7 +102,7 @@
   });
 
   /*Related Slide*/
-  var blogSlider = new Swiper('.related-slider', {
+  var relatedSlider = new Swiper('.related-slider', {
     slidesPerView: 3,
     speed: 500,
     spaceBetween: 24,
@@ -138,7 +142,7 @@
 
 
   jQuery(window).on('load', function () {
-    const tl = gsap.timeline({ defaults: { ease: "Elastic.easeOut(1, 0.5" } });
+    const tl = gsap.timeline({ defaults: { ease: "Elastic.easeOut(.8, 0.5)" } });
     tl.to(".clip__texts", {
       x: "0",
       duration: 1.5,
@@ -160,6 +164,14 @@
       zIndex: -10,
       ease: Power0.ease
     });
+    tl.to(".hero__content", {
+      y: 0,
+      opacity: 1,
+      ease: Power0.ease,
+      duration: 1.5
+    });
+    
+
 
 
     // About
@@ -171,14 +183,16 @@
             scrub: true,
             pin: true,
             start: "50% 50%",
-            h: '100vh'
+            h: '100vh',
+            duration: .5,
         }
     })
 
     .from(".orange", {
         scale: 0.6, 
         ease: Quint.easeIn,
-        y: -100
+        y: -100,
+        duration: .5,
     })
 
     .from(".about_gif__wrap", {
@@ -186,12 +200,14 @@
         opacity: 1,
         ease:Power1.easeIn,
         transformOrigin:"left top",
+        duration: .5,
     }, 0)
     .to(".about_gif__wrap", {
         scaleY:0,
         opacity: 0,
         ease:Power1.easeIn,
         transformOrigin:"left top",
+        duration: .5,
     }, 0);
 
   });

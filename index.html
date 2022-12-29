@@ -21,7 +21,7 @@
 <body>
 
     <!-- preloder style  -->
-    <div class="preloader-wrap d-flex flex-column justify-content-center align-items-center">
+    <!-- <div class="preloader-wrap d-flex flex-column justify-content-center align-items-center">
         <div>
             <div class="clip__texts">
                 <h2 class="clip__normal">RBD</h2>
@@ -32,7 +32,7 @@
                 <h3 class="bottom__text bottom_text__end">at Medford</h3>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- header style start -->
     <div class="header__style ">
@@ -538,6 +538,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-scrollbar"></div>
                     <div class="press__btns mt-5">
                         <button class="press-prev" tabindex="0" aria-label="Previous slide" aria-controls="swiper-wrapper-64bccfb449f2e9a10">
                             <svg width="20" height="7" viewBox="0 0 20 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -575,6 +576,38 @@
         </div>
     </div>
    </div>
+   <!-- s -->
+
+
+
+   <div class="overflow-hidden slider-section">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/images/swiper-me.png" alt="" class="w-100">
+                    <h5>1</h5>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/swiper-me.png" alt="" class="w-100">
+                    <h5>1</h5>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/swiper-me.png" alt="" class="w-100">
+                    <h5>1</h5>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/swiper-me.png" alt="" class="w-100">
+                    <h5>1</h5>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/swiper-me.png" alt="" class="w-100">
+                    <h5>1</h5>
+                </div>
+            </div>
+        </div>
+   </div>
+
+
 
    <!-- Footer Slider End -->
    
@@ -681,6 +714,35 @@
 
    <!-- Footer End -->
 
+
+   <style>
+        .mySwiper .swiper-slide-active{
+           
+            opacity: 1;
+            visibility: visible;
+        }
+        .mySwiper .swiper-slide-next{
+            opacity: 1;
+            visibility: visible;
+            margin-top: 100px;
+            transform: rotate(15deg);
+        }
+        .mySwiper .swiper-slide-prev{
+            margin-top: 100px;
+            transform: rotate(-15deg);
+            opacity: 1;
+            visibility: visible;
+        }
+        .swiper-slide{
+            transition: all .5s;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .slider-section{
+            height: 800px;
+        }
+   </style>
+
    
 
     <!-- jquery JS -->
@@ -696,6 +758,22 @@
     <script src="./assets/js/jquery.flipster.min.js"></script>
     <!-- custom JS -->
     <script src="./assets/js/main.js"></script>
+
+    <script>
+
+var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        spaceBetween: "10%",
+        centeredSlides: true,
+        // roundLengths: true,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
 
 </body>
 
